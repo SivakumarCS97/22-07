@@ -27,7 +27,7 @@ spec:
     app: nginx
   type: ClusterIP
   ports:
-    - name: "my-tomcat"
+    - name: http
       port: 80
       targetPort: 80
   
